@@ -1,0 +1,4 @@
+streamlit
+pathlib
+fastai
+timm
