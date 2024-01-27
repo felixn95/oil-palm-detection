@@ -36,13 +36,13 @@ localhost:8501
 We utilized the dataset available at [Kaggle](https://www.kaggle.com/c/widsdatathon2019/data), comprising 20,000 labeled satellite images from Borneo. 
 
 ## 4. Preprocessing and Explorative Data Analysis (EDA)
-Some Adjustments to the dataset were necessary for optimal processing. To understand and validate the dataset, we employed the [Data Gradient Library](https://docs.deci.ai/data-gradients/index.html). Content located in the `data_processing` folder.
+Some Adjustments to the dataset were necessary for optimal processing. To understand and validate the dataset, we employed the [Data Gradient Library](https://docs.deci.ai/data-gradients/index.html). Content located in the [data_processing](https://github.com/felixn95/oil-palm-detection/tree/main/data_processing) folder.
 
 ## 5. Model Training and Tracking
-Model training was conducted using [fastai](https://docs.fast.ai/vision.learner.html). We experimented with various pre-trained models, adjusting epochs and learning rates for fine-tuning. For model visualization, comparison, monitoring, and collaboration, we used [NeptuneAI](https://docs.neptune.ai/about/intro/). Training, decentralized across team members using Colab (due to GPU), was centrally tracked using NeptuneAI. Training notebooks are available in the `model_training` folder.
+Model training was conducted using [fastai](https://docs.fast.ai/vision.learner.html). We experimented with various pre-trained models, adjusting epochs and learning rates for fine-tuning. For model visualization, comparison, monitoring, and collaboration, we used [NeptuneAI](https://docs.neptune.ai/about/intro/). Training, decentralized across team members using Colab (due to GPU), was centrally tracked using NeptuneAI. Training notebooks are available in the [model_training](https://github.com/felixn95/oil-palm-detection/tree/main/model_training) folder.
 
 ## 6. Interpretation & Evaluation
-Key insights from the NeptuneAI results are compiled and available in the `evaluation` folder.
+Key insights from the NeptuneAI results are compiled and available in the [evaluation](https://github.com/felixn95/oil-palm-detection/tree/main/evaluation) folder.
 
 ## 7. UI and Idea for Practical Application
 The app allows uploading a single image or a zip file for analysis. Further, we provide three of our best models for selection. Researchers can upload zip files containing numerous satellite images. These images are processed within the container, and a summary of positively predicted images is displayed on the UI. For simulation i.e, we used a subset from a different dataset available at [Kaggle](https://www.kaggle.com/c/planet-understanding-the-amazon-from-space/data), featuring images from the Amazon region.
