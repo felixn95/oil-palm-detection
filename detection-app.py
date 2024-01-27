@@ -37,7 +37,7 @@ def create_dataloader(batch_size=64):
 
 def load_model(model_name):
     learn = vision_learner(create_dataloader(), model_name, metrics=accuracy)
-    path_to_model = f'{model_name}.pkl'
+    path_to_model = f'models/{model_name}.pkl'
     return load_learner(path_to_model)
 
 # Function to perform inference on a single image
