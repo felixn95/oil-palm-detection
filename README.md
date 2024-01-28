@@ -46,3 +46,7 @@ Key insights from the NeptuneAI results are compiled and available in the [evalu
 
 ## 7. UI and Idea for Practical Application
 The app allows uploading a single image or a zip file for analysis. Further, we provide three of our best models for selection. Researchers can upload zip files containing numerous satellite images. These images are processed within the container, and a summary of positively predicted images is displayed on the UI. For simulation i.e, we used a subset from a different dataset available at [Kaggle](https://www.kaggle.com/c/planet-understanding-the-amazon-from-space/data), featuring images from the Amazon region.
+
+## 8. Further Steps and Outlook
+
+TODO
