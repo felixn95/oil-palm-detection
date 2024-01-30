@@ -47,24 +47,24 @@ Model training was conducted using [fastai](https://docs.fast.ai/vision.learner.
 Key insights from the NeptuneAI results are compiled and available in the [evaluation](https://github.com/felixn95/oil-palm-detection/tree/main/evaluation) folder.
 
 ## 7. UI and Idea for Practical Application
-The app allows uploading a single image or a zip file for analysis. Further, we provide three of our best models for selection. Researchers can upload zip files containing numerous satellite images. These images are processed within the container, and a summary of positively predicted images is displayed on the UI. For simulation i.e, we used a subset from a different dataset available at [Kaggle](https://www.kaggle.com/c/planet-understanding-the-amazon-from-space/data), featuring images from the Amazon region.
+The app allows uploading a single image or a zip file for analysis. Further, we provide three of our best models for selection. Researchers can upload zip files containing numerous satellite images. These images are processed within the container, and a summary of positively predicted images is displayed on the UI. For simulation i.e, we used a subset from a different dataset available at [Kaggle](https://www.kaggle.com/c/planet-understanding-the-amazon-from-space/data), featuring images from the Amazon region. This subset zip of 100 images can be used for testing and simulating the idea. located in [amazonas_showcase](https://github.com/felixn95/oil-palm-detection/tree/main/amazonas_set_showcase). Our models of course have never seen the images from the amazonas data set, they were just trained on our dataset with images from Borneo. 
 
 ## 8. Further Steps and Outlook
 
-### Model Optimization
+##### Model Optimization
 - **Refine the Model**: Experiment with different architectures and hyperparameters.
 - **Data Augmentation**: Implement data augmentation techniques to increase dataset diversity and improve model generalization.
 - **Advanced Techniques**: Explore advanced techniques like transfer learning, ensemble models, or fine-tuning strategies to boost performance.
 
-### Cross-Region Validation
+##### Cross-Region Validation
 - **Test in Various Regions**: Validate the model across different geographical regions.
 - **Ensure Robustness**: Check adaptability to various environmental conditions.
 
-### Integration with Real-Time Data
+##### Integration with Real-Time Data
 - **Partnerships**: Collaborate with satellite companies or governmental agencies.
 - **Enhance Utility**: Access real-time data for immediate deforestation detection.
 
-### User Feedback Mechanism
+##### User Feedback Mechanism
 - **Feedback Feature**: Implement a system for users to provide feedback on model predictions.
 - **Continuous Improvement**: Use the feedback for model fine-tuning and enhancement.
 
