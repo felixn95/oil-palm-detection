@@ -32,11 +32,13 @@ localhost:8501
 ## 2. Motivation
  Oil palm is a common ingredient in numerous daily items like shampoo, donuts, and ice cream, remains unfamiliar to many despite its widespread use. This crop thrives exclusively in tropical regions, and its cultivation has resulted in extensive deforestation, heightened carbon emissions, and a reduction in biodiversity. This project aims to address such deforestation issues in various regions globally.
 
-## 3. Dataset & Preprocessing
+## 3. Dataset 
 We utilized the dataset available at [Kaggle](https://www.kaggle.com/c/widsdatathon2019/data), comprising 20,000 labeled satellite images from Borneo. 
 
 ## 4. Preprocessing and Explorative Data Analysis (EDA)
-Some Adjustments to the dataset were necessary for optimal processing. To understand and validate the dataset, we employed the [Data Gradient Library](https://docs.deci.ai/data-gradients/index.html). Content located in the [data_processing](https://github.com/felixn95/oil-palm-detection/tree/main/data_processing) folder.
+Some Adjustments to the dataset were necessary for optimal processing. To understand and validate the dataset, we employed the [Data Gradient Library](https://docs.deci.ai/data-gradients/index.html). Content located in the [data_processing](https://github.com/felixn95/oil-palm-detection/tree/main/data_processing) folder, with two notebooks:
+- 01: general necessary preprocessing and some exploration. 
+- 02: exploring the labeled confidence score and it's affection. 
 
 ## 5. Model Training and Tracking
 Model training was conducted using [fastai](https://docs.fast.ai/vision.learner.html). We experimented with various pre-trained models, adjusting epochs and learning rates for fine-tuning. For model visualization, comparison, monitoring, and collaboration, we used [NeptuneAI](https://docs.neptune.ai/about/intro/). Training, decentralized across team members using Colab (due to GPU), was centrally tracked using NeptuneAI. Training notebooks are available in the [model_training](https://github.com/felixn95/oil-palm-detection/tree/main/model_training) folder.
