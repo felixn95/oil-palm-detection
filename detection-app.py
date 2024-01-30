@@ -178,6 +178,7 @@ def main():
                 # Create a DataFrame from the list
                 df = pd.DataFrame(image_data, columns=["Image Name", "Confidence Score", "Image Path"])
 
+                st.write(f"Found {len(df)} positive predicted images with Oil Palm Plantations out of {total_images} images in the ZIP-File")
                 # Display the table
                 st.table(df)
                 #df_html = render_dataframe_with_colored_cells(df)
