@@ -33,7 +33,7 @@ localhost:8501
  Oil palm is a common ingredient in numerous daily items like shampoo, donuts, and ice cream, remains unfamiliar to many despite its widespread use. This crop thrives exclusively in tropical regions, and its cultivation has resulted in extensive deforestation, heightened carbon emissions, and a reduction in biodiversity. This project aims to address such deforestation issues in various regions globally.
 
 ## 3. Dataset 
-We utilized the dataset available at [Kaggle](https://www.kaggle.com/c/widsdatathon2019/data), comprising 20,000 labeled satellite images from Borneo. 
+We utilized the dataset available at [Kaggle](https://www.kaggle.com/c/widsdatathon2019/data), comprising 20,000 labeled satellite images from Borneo. The data consists of images displaying 3m spatial resolution. These are labelled depending on the presence of a palm oil plantation in the picture (0=no plantation, 1=plantation).
 
 ## 4. Preprocessing and Explorative Data Analysis (EDA)
 Some Adjustments to the dataset were necessary for optimal processing. To understand and validate the dataset, we employed the [Data Gradient Library](https://docs.deci.ai/data-gradients/index.html). Content located in the [data_processing](https://github.com/felixn95/oil-palm-detection/tree/main/data_processing) folder, with two notebooks:
