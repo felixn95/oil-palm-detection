@@ -85,3 +85,7 @@ For simulation i.e, we used a subset from a different dataset available at [Kagg
 - **Feedback Feature**: Implement a system for users to provide feedback on model predictions.
 - **Continuous Improvement**: Use the feedback for model fine-tuning and enhancement.
 
+## 8. How we worked
+<img width="584" alt="image" src="https://github.com/felixn95/oil-palm-detection/assets/109859669/693dd921-cc51-409b-9ccb-4112d74024d6">
+
+
