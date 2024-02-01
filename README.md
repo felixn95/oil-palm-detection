@@ -49,7 +49,7 @@ The models were trained in different projects, as can be seen in the screenshot 
 
 Each member of the team tried different models and parameters, which then have been evaluated and compared. 
 ## 6. Interpretation & Evaluation
-We evaluated the models in this [Excel-Sheet](https://github.com/felixn95/oil-palm-detection/blob/main/model_training/Optimizer_comparison.xlsx). There, a detailed view on all runs can be found. Included are insights on the models parameters and the performance evaluation. Additionally, Screenshots of all tables can be foung [here](https://github.com/felixn95/oil-palm-detection/tree/main/model_training). To get a good overview over our results, the best models can be seen in the Screenshot below. 
+We evaluated the models in this [Excel-Sheet](https://github.com/felixn95/oil-palm-detection/blob/main/model_training/Optimizer_comparison.xlsx). There, a detailed view on all runs can be found. Included are insights on the models parameters and the performance evaluation. Additionally, Screenshots of all tables can be found [here](https://github.com/felixn95/oil-palm-detection/tree/main/model_training). To get a quick overview over our results, the best models can be seen in the image below. 
 
 ![image](model_training/Model_Overview_Optimizers_Best_augmentedData.png)
 
