@@ -43,8 +43,13 @@ Some Adjustments to the dataset were necessary for optimal processing. To unders
 ## 5. Model Training and Tracking
 Model training was conducted using [fastai](https://docs.fast.ai/vision.learner.html). We experimented with various pre-trained models, adjusting epochs and learning rates for fine-tuning. For model visualization, comparison, monitoring, and collaboration, we used [NeptuneAI](https://docs.neptune.ai/about/intro/). Training, decentralized across team members using Colab (due to GPU), was centrally tracked using NeptuneAI. Training notebooks are available in the [model_training](https://github.com/felixn95/oil-palm-detection/tree/main/model_training) folder.
 
+The models were trained in different projects, as can be seen in the screenshot below. 
+
+![image](https://github.com/felixn95/oil-palm-detection/assets/109859669/ff2277a5-0fc2-499f-bdb1-983b414d910c)
+
+Each member of the team tried different models and parameters, which then have been evaluated and compared. 
 ## 6. Interpretation & Evaluation
-Key insights from the Model Comparison results are presented <here>.
+Key insights from the Model Comparison results are presented here: TODO.
 
 An interpretation of a well-performing model was made here [interpretation](https://github.com/felixn95/oil-palm-detection/blob/main/interpretation/interpretation.ipynb). 
 
