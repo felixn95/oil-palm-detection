@@ -53,7 +53,7 @@ We evaluated the models in this [Excel-Sheet](https://github.com/felixn95/oil-pa
 
 ![image](archive_and_playground/Dashboard_neptune.png)
 
-(Purple:squeezenet1_1, Yellow:squeezenet1_0, Black:densenet169, Green:densenet121) 
+(Purple: Squeezenet1_1, Yellow: Squeezenet1_0, Black: Densenet169, Green: Densenet121) 
 
 ![image](model_training/Model_Overview_Optimizers_Best_augmentedData.png)
 
