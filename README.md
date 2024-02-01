@@ -49,15 +49,14 @@ The models were trained in different projects, as can be seen in the screenshot 
 
 Each member of the team tried different models and parameters, which then have been evaluated and compared. 
 ## 6. Interpretation & Evaluation
-Key insights from the Model Comparison results are presented here: TODO.
-
-An interpretation of a well-performing model was made here [interpretation](https://github.com/felixn95/oil-palm-detection/blob/main/interpretation/interpretation.ipynb).
-
 We evaluated the models in this [Excel-Sheet](https://github.com/felixn95/oil-palm-detection/blob/main/model_training/Optimizer_comparison.xlsx). There, a detailed view on all runs can be found. Included are insights on the models parameters and the performance evaluation. Additionally, Screenshots of all tables can be foung [here](https://github.com/felixn95/oil-palm-detection/tree/main/model_training). To get a good overview over our results, the best models can be seen in the Screenshot below. 
 
 ![image](model_training/Model_Overview_Optimizers_Best_augmentedData.png)
 
 The best recorded accuracy is 94.3918705% achieved by two models. One models uses a squeezenet architecture, Adam as optimizer and only images that were labelled with a confidence score of .75 or above. The batch size used for training was 64. The other model uses the densenet121 architecture. This model also uses Adam, a batch size of 64 and images with a confidence score of .75 and above. 
+
+An interpretation of another well-performing model was made here [interpretation](https://github.com/felixn95/oil-palm-detection/blob/main/interpretation/interpretation.ipynb).
+
 ## 7. UI and Idea for Practical Application
 The app allows uploading a single image or a zip file for analysis. Further, we provide three of our best models for selection. Researchers can upload zip files containing numerous satellite images. These images are processed within the container, and a summary of positively predicted images is displayed on the UI. For simulation i.e, we used a subset from a different dataset available at [Kaggle](https://www.kaggle.com/c/planet-understanding-the-amazon-from-space/data), featuring images from the Amazon region. This subset zip of 100 images can be used for testing and simulating the idea, located in [amazonas_showcase](https://github.com/felixn95/oil-palm-detection/tree/main/amazonas_set_showcase). Our models, of course, have never seen the images from the Amazonas data set, they were just trained on our data set containing images from Borneo. 
 
