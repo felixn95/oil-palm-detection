@@ -16,6 +16,7 @@ temp_zip_path = base_dir / "temp.zip"
 temp_extract_path = base_dir / "extracted"
 temp_extract_path.mkdir(parents=True, exist_ok=True)
 
+# Provide all custom structures and methods to be replicated in the inference environment. 
 def get_x(row, train_images):
     return os.path.join(train_images, row['image_id'])
 
@@ -80,7 +81,7 @@ def main():
     train_labels = 'train_labels_filtered.csv'
 
     # Model selection
-    model_name = st.selectbox("Select a Model", ["densenet169", "resnet34"])
+    model_name = st.selectbox("Select a Model", ["densenet169", "resnet50"])
 
     # Choose upload type
     upload_type = st.radio("Choose the upload type", ["Single Image", "ZIP File"])
@@ -184,7 +185,7 @@ def main():
                 #df_html = render_dataframe_with_colored_cells(df)
                 # st.markdown(df_html, unsafe_allow_html=True)
 
-                # Optionally, show images below the table
+                # show found images below the table
                 for _, row in df.iterrows():
                     image = Image.open(row["Image Path"])
                     st.image(image, caption=row["Image Name"], use_column_width=True)
