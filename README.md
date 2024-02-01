@@ -51,7 +51,7 @@ Each member of the team tried different models and parameters, which then have b
 ## 6. Interpretation & Evaluation
 We evaluated the models in this [Excel-Sheet](https://github.com/felixn95/oil-palm-detection/blob/main/model_training/Optimizer_comparison.xlsx). There, a detailed view on all runs can be found. Included are insights on the models parameters and the performance evaluation. Additionally, Screenshots of all tables can be found [here](https://github.com/felixn95/oil-palm-detection/tree/main/model_training). To get a quick overview of our results, the best models can be seen in the images below. 
 
-![image](Dashboard_neptune.png)
+![image](archive_and_playground/Dashboard_neptune.png)
 ![image](model_training/Model_Overview_Optimizers_Best_augmentedData.png)
 
 The best recorded accuracy is 94.3918705% achieved by two models. One models uses a squeezenet architecture, Adam as optimizer and only images that were labeled with a confidence score of .75 or above. The batch size used for training was 64. The other model uses the densenet121 architecture. This model also uses Adam, a batch size of 64 and images with a confidence score of .75 and above. 
