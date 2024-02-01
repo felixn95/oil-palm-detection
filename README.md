@@ -53,7 +53,7 @@ Key insights from the Model Comparison results are presented here: TODO.
 
 An interpretation of a well-performing model was made here [interpretation](https://github.com/felixn95/oil-palm-detection/blob/main/interpretation/interpretation.ipynb).
 
-We evaluated the models in this [Excel-Sheet](https://github.com/felixn95/oil-palm-detection/blob/main/model_training/Optimizer_comparison.xlsx). There, a detailed view on all runs can be found. Included are insights on the models parameters and the performance evaluation. Additionally, Screenshots of all tables can be foung [here](https://github.com/felixn95/oil-palm-detection/tree/main/model_training) To get a good overview over our results, the best models can be seen in the Screenshot below. 
+We evaluated the models in this [Excel-Sheet](https://github.com/felixn95/oil-palm-detection/blob/main/model_training/Optimizer_comparison.xlsx). There, a detailed view on all runs can be found. Included are insights on the models parameters and the performance evaluation. Additionally, Screenshots of all tables can be foung [here](https://github.com/felixn95/oil-palm-detection/tree/main/model_training). To get a good overview over our results, the best models can be seen in the Screenshot below. 
 
 ![image](model_training/Model_Overview_Optimizers_Best_augmentedData.png)
 
